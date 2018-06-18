@@ -6,5 +6,6 @@ def prime?(num)
   end
   prime_factor = [*2..num-1]
   isprime = prime_factor.none?{|n| num % n == 0}
-  
+  return isprime
+
 end
